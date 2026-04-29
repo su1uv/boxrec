@@ -33,7 +33,7 @@ func NewEnv() *Env {
 	}
 
 	if env.AppEnv == "development" {
-		fmt.Println("The server is running in development mode")
+		fmt.Println("The server is running on development mode")
 	}
 
 	return &env
